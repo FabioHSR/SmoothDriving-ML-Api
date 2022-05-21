@@ -5,9 +5,7 @@ import requests
 import pandas as pd
 import itertools
 import os
-from datetime import datetime
 from pymongo import MongoClient
-import joblib
 from pycaret.classification import *
 
 app = Flask("Smooth Driving ML API")
